@@ -1,0 +1,163 @@
+/*-----------------------------------reset-------------------------------------*/
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#fff;
+	font-size:16px;
+	color:#666666;
+	font-family: "微软雅黑";
+}
+::selection{
+	background-color: #41c500;
+	color: #ffffff;
+}
+::-webkit-selection{
+	background-color: #41c500;
+	color: #ffffff;
+}
+
+p,h1,h2,h3,h4,h5,input,ul,li,dl,dt,dd,img,pre{
+	padding:0;
+	margin:0;
+	outline:0;
+	border:0;
+}
+
+i{
+	font-style:normal;
+}
+
+li{
+	list-style:none;
+}
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:active{
+	color: black;
+}
+
+a,a:hover{
+	text-decoration:none;
+}
+img{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.clearfloat{
+    clear:both;
+    overflow:hidden;
+}
+.clearfloatx{
+	clear:both;
+}
+.w1440{
+    width:1440px;
+    margin:0 auto;
+	position: relative;
+}
+.w1250{
+	width: 1250px;
+	margin: 0 auto;
+	position: relative;
+}
+.transition{
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+/*文字渐变的类*/
+.textlinear{
+	background: -webkit-linear-gradient(#33cccc,#00ccff,#3366cc);
+	background: -moz-linear-gradient(#33cccc,#00ccff,#3366cc);
+	background: -ms-linear-gradient(#33cccc,#00ccff,#3366cc);
+	background: -o-linear-gradient(#33cccc,#00ccff,#3366cc);
+	background: linear-gradient(#33cccc,#00ccff,#3366cc);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+/*背景渐变的类*/
+.bglinear{
+	background: -webkit-linear-gradient(to right,#0e97fd,#4ec8fe);
+	background: -moz-linear-gradient(to right,#0e97fd,#4ec8fe);
+	background: -ms-linear-gradient(to right,#0e97fd,#4ec8fe);
+	background: -o-linear-gradient(to right,#0e97fd,#4ec8fe);
+	background: linear-gradient(to right,#0e97fd,#4ec8fe);
+	box-shadow: 0 0 15px 0 rgba(68,192,254,.7);
+}
+
+.themeColor{
+	background: -webkit-linear-gradient(160deg,#00ff7e,#00dcff);
+	background: -moz-linear-gradient(160deg,#00ff7e,#00dcff);
+	background: -ms-linear-gradient(160deg,#00ff7e,#00dcff);
+	background: -o-linear-gradient(160deg,#00ff7e,#00dcff);
+	background: linear-gradient(160deg,#00ff7e,#00dcff);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+.themebgColor{
+	background: -webkit-linear-gradient(160deg,#00ff7e,#00dcff);
+	background: -moz-linear-gradient(160deg,#00ff7e,#00dcff);
+	background: -ms-linear-gradient(160deg,#00ff7e,#00dcff);
+	background: -o-linear-gradient(160deg,#00ff7e,#00dcff);
+	background: linear-gradient(160deg,#00ff7e,#00dcff);
+}
+.title{
+	padding: 5rem 6rem;
+	text-align: center;
+	color: #ffffff;
+}
+.main-block{
+	padding: 30px 0;
+}
+.section{
+	padding-bottom: 30px;
+}
+.section p{
+	line-height: 40px;
+}
+.section h2{
+	padding-bottom: 10px;
+}
+.section a{
+	color: #41c500;
+	display: inline-block;
+	padding: 0px 14px;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.section a:hover{
+	background: #41c500;
+	color: #ffffff;
+}
+.imgshow img{
+	max-width: 100%;
+}
+.g{
+	color: #41c500;
+}
+@media only screen and (max-width: 1250px) {
+	.w1440{
+		width: 1250px;
+	}
+}

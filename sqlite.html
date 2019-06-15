@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>sqlite使用教程</title>
+		<link rel="stylesheet" href="css/sqlite.css">
+	</head>
+	<body>
+		<div class="title themebgColor"><h1>sqlite使用教程</h1></div>
+		<div class="main-block w1440">
+			<div class="section">
+				<h2><span class="themeColor">一、sqlite安装</span></h2>
+				<p>进入sqlite官网</p>
+				<p><a href="https://www.sqlite.org/download.html">https://www.sqlite.org/download.html</a></p>
+				<p>下载两个文件：</p>
+				<p><a href="https://www.sqlite.org/2019/sqlite-dll-win32-x86-3280000.zip">https://www.sqlite.org/2019/sqlite-dll-win32-x86-3280000.zip</a></p>
+				<p><a href="https://www.sqlite.org/2019/sqlite-tools-win32-x86-3280000.zip">https://www.sqlite.org/2019/sqlite-tools-win32-x86-3280000.zip</a></p>
+				<p>创建一个名为sqlite3的文件夹（文件夹名字是可以自己取的），将刚刚下载的文件解压到sqlite3文件夹里面</p>
+				<div class="imgshow"><img src="images/sqlite-install-01.png" alt=""></div>
+				<p>将sqlite3文件夹放到C盘根目录下面（放到哪个盘符、哪个目录下面都可以，这里只是为了方便配环境的时候写个短点路径）</p>
+				<div class="imgshow"><img src="images/sqlite-install-02.png" alt=""></div>
+			</div>
+			<div class="section">
+				<h2><span class="themeColor">二、sqlite配置（添加）环境变量</span></h2>
+				<p>右键计算机-->属性-->高级系统设置-->高级-->环境变量-->点击Path-->编辑-->添加文件路径<span class="g" style="display: inline-block;text-indent: 20px;">;C:\sqlite3\sqlite-tools-win32-x86-3280000\sqlite3.exe</span></p>
+				<div class="imgshow"><img src="images/sqlite-environment.png" alt=""></div>
+				<p>win+R-->输入cmd-->回车-->输入命令：<span class="g">sqlite3</span>，查看是否安装成功</p>
+				<div class="imgshow"><img src="images/detection.png" alt=""></div>
+			</div>
+			<div class="section">
+				<h2><span class="themeColor">三、创建sqlite数据库</span></h2>
+				<p>win+R-->输入cmd-->回车-->输入命令：<span class="g">sqlite3 &lt;数据库名&gt; </span>（<span class="g">sqlite3 study.db</span>）-->输入命令：<span class="g">.database</span>查看数据库</p>
+				<div class="imgshow"><img src="images/sqlite-create.png" alt=""></div>
+			</div>
+			<div class="section">
+				<h2><span class="themeColor">四、Navicat连接sqlite3</span></h2>
+				<p>打开Navicat Premium</p>
+				<div class="imgshow"><img src="images/connSqlite-01.png" alt=""></div>
+				<p>输入数据库文件路径-->输入用户名-->输入密码-->确定</p>
+				<div class="imgshow"><img src="images/connSqlite-03.png" alt=""></div>
+				<div class="imgshow"><img src="images/connSqlite-02.png" alt=""></div>
+				<p>连接成功！</p>
+				<div class="imgshow"><img src="images/connSqlite-04.png" alt=""></div>
+			</div>
+			<div class="section">
+				<h2><span class="themeColor">五、sqlite3的一些指令</span></h2>
+				<p>打开sqlite3.exe，输入命令：<span class="g" style="display: inline-block;text-indent: 10px;">.help</span>查看sqlite的所有指令，<span class="g" style="display: inline-block;text-indent: 10px;">.quit</span>退出</p>
+				<div class="imgshow"><img src="images/sqlite3-cmd-02.png" alt=""></div>
+				<div class="imgshow"><img src="images/sqlite3-cmd.png" alt=""></div>
+			</div>
+		</div>
+	</body>
+</html>
