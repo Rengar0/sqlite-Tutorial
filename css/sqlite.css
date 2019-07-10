@@ -113,6 +113,7 @@ img{
 	background: linear-gradient(160deg,#00ff7e,#00dcff);
 	-webkit-background-clip: text;
 	background-clip: text;
+	-webkit-text-fill-color: transparent;
 	color: transparent;
 }
 .themebgColor{
