@@ -164,7 +164,7 @@ img{
 @media only screen and (max-width: 768px) {
 	.w1440{
 		width: 100%;
-		padding: 0 10px;
+		padding: 30px 10px;
 		box-sizing: border-box;
 	}
 	.title {
